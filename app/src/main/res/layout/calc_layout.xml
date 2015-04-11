@@ -94,7 +94,8 @@
             android:paddingRight="30dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="onClickBtn4" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -111,7 +112,8 @@
             android:paddingRight="30dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="onClickBtn1" />
 
 
     </LinearLayout>
@@ -161,7 +163,8 @@
             android:paddingRight="30dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="onClickBtn5" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -179,7 +182,8 @@
             android:paddingRight="30dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="onClickBtn2" />
 
 
     </LinearLayout>
@@ -227,7 +231,8 @@
             android:paddingRight="30dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="onClickBtn6" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -245,7 +250,8 @@
             android:paddingRight="30dp"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="onClickBtn3" />
     </LinearLayout>
 
     <LinearLayout
