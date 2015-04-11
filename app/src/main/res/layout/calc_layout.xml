@@ -75,7 +75,54 @@
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
+            android:paddingBottom="15dp"
+            android:onClick="onClickBtn7"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="4"
+            android:id="@+id/btn4"
+            android:background="#ff4d4d4d"
+            android:textColor="#ffeaeaea"
+            android:textSize="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1"
+            android:id="@+id/btn1"
+            android:background="#ff4d4d4d"
+            android:textColor="#ffeaeaea"
+            android:textSize="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:clickable="true" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_alignTop="@+id/layout1"
+        android:layout_toEndOf="@+id/layout1">
 
         <TextView
             android:layout_width="wrap_content"
@@ -92,49 +139,11 @@
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="9"
-            android:id="@+id/btn9"
-            android:background="#ff4d4d4d"
-            android:textColor="#ffeaeaea"
-            android:textSize="40dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_below="@+id/txtEquals"
-            android:layout_alignParentStart="true"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/layout2"
-        android:layout_alignTop="@+id/layout1"
-        android:layout_toEndOf="@+id/layout1">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="4"
-            android:id="@+id/btn4"
-            android:background="#ff4d4d4d"
-            android:textColor="#ffeaeaea"
-            android:textSize="40dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_alignParentStart="true"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
+            android:paddingBottom="15dp"
+            android:onClick="onClickBtn8"
+            android:linksClickable="false"
+            android:longClickable="false"
+            android:clickable="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -151,49 +160,8 @@
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="6"
-            android:id="@+id/btn6"
-            android:background="#ff4d4d4d"
-            android:textColor="#ffeaeaea"
-            android:textSize="40dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_below="@+id/txtEquals"
-            android:layout_alignParentStart="true"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/layout2"
-        android:layout_toEndOf="@+id/layout2"
-        android:id="@+id/layout3">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="1"
-            android:id="@+id/btn1"
-            android:background="#ff4d4d4d"
-            android:textColor="#ffeaeaea"
-            android:textSize="40dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_alignParentStart="true"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
+            android:paddingBottom="15dp"
+            android:clickable="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -210,7 +178,56 @@
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
+            android:paddingBottom="15dp"
+            android:clickable="true" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/layout2"
+        android:layout_toEndOf="@+id/layout2"
+        android:id="@+id/layout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9"
+            android:id="@+id/btn9"
+            android:background="#ff4d4d4d"
+            android:textColor="#ffeaeaea"
+            android:textSize="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/txtEquals"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:clickable="true"
+            android:onClick="onClickBtn9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="6"
+            android:id="@+id/btn6"
+            android:background="#ff4d4d4d"
+            android:textColor="#ffeaeaea"
+            android:textSize="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/txtEquals"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:clickable="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -227,7 +244,8 @@
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:paddingTop="15dp"
-            android:paddingBottom="15dp" />
+            android:paddingBottom="15dp"
+            android:clickable="true" />
     </LinearLayout>
 
     <LinearLayout
